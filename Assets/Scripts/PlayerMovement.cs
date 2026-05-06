@@ -82,10 +82,7 @@ public class PlayerMovement:MonoBehaviour
         
       
     }
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-    }
+    
     private bool isGrounded()
     {
         RaycastHit2D raycastHit=Physics2D.BoxCast(boxCollider.bounds.center,boxCollider.bounds.size,0,Vector2.down,0.1f,groundLayer);
@@ -103,3 +100,4 @@ public class PlayerMovement:MonoBehaviour
     }
 
 }
+

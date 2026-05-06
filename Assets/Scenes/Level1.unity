@@ -521,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 720fc112a719e82428d57d2967ab32b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 10
+  speed: 5
   jumpPower: 20
   groundLayer:
     serializedVersion: 2
