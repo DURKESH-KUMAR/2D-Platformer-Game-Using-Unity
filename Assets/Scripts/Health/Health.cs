@@ -11,6 +11,9 @@ public class Health:MonoBehaviour
     [SerializeField]private float iFramesDuration;
     [SerializeField]private int numberOfFlashes;
     private SpriteRenderer spriteRend;
+    [Header("Components")]
+    [SerializeField] Behaviour[] components;
+
     private void Awake()
     {
         currentHealth =startingHealth;
@@ -30,17 +33,21 @@ public class Health:MonoBehaviour
             if (!dead)
             {
                 anim.SetTrigger("die");
-                if (GetComponent<PlayerMovement>() != null)
+                // if (GetComponent<PlayerMovement>() != null)
+                // {
+                //     GetComponent<PlayerMovement>().enabled=false; 
+                // }
+                // if (GetComponentInParent<EnemyPatrol>() != null)
+                // {
+                //     GetComponentInParent<EnemyPatrol>().enabled=false;
+                // }
+                // if (GetComponent<MeleeEnemy>() != null)
+                // {
+                //     GetComponent<MeleeEnemy>().enabled=false;
+                // }
+                foreach(Behaviour component in components)
                 {
-                    GetComponent<PlayerMovement>().enabled=false; 
-                }
-                if (GetComponentInParent<EnemyPatrol>() != null)
-                {
-                    GetComponentInParent<EnemyPatrol>().enabled=false;
-                }
-                if (GetComponent<MeleeEnemy>() != null)
-                {
-                    GetComponent<MeleeEnemy>().enabled=false;
+                    component.enabled=false;
                 }
                
 
@@ -70,5 +77,9 @@ public class Health:MonoBehaviour
             yield return new WaitForSeconds(iFramesDuration/(numberOfFlashes*2));
         }
         Physics2D.IgnoreLayerCollision(7,8,false);
+    }
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 }
