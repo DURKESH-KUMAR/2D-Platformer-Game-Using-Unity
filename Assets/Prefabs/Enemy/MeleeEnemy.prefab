@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 2784426260024730085}
   - component: {fileID: 5890730593808697063}
   - component: {fileID: 4285710310950628433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MeleeEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,8 +192,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MeleeEnemy
   attackCoolDown: 1
   range: 1.37
-  colliderDistance: 1.02
   damage: 2
+  colliderDistance: 1.02
   boxCollider: {fileID: 2784426260024730085}
   playerLayer:
     serializedVersion: 2

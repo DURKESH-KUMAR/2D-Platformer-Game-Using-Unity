@@ -713,14 +713,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (6)
@@ -1551,14 +1543,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (7)
@@ -1611,7 +1595,6 @@ Transform:
   - {fileID: 1730174382}
   - {fileID: 905840712}
   - {fileID: 1167543717}
-  - {fileID: 579338487}
   - {fileID: 1966682245}
   m_Father: {fileID: 2087847717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2674,8 +2657,8 @@ GameObject:
   m_Component:
   - component: {fileID: 430684048}
   - component: {fileID: 430684049}
-  - component: {fileID: 430684050}
   - component: {fileID: 430684051}
+  - component: {fileID: 430684050}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -5188,14 +5171,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (4)
@@ -7214,14 +7189,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (2)
@@ -7988,14 +7955,6 @@ PrefabInstance:
     - target: {fileID: 2763563351192945308, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
       objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
@@ -10191,14 +10150,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (3)
@@ -10602,14 +10553,6 @@ PrefabInstance:
     - target: {fileID: 2763563351192945308, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
       objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
@@ -11124,14 +11067,6 @@ PrefabInstance:
     - target: {fileID: 2763563351192945308, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
       objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
@@ -12192,14 +12127,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball (8)
@@ -12797,6 +12724,7 @@ Transform:
   m_Children:
   - {fileID: 1481522732}
   - {fileID: 1580795999}
+  - {fileID: 579338487}
   m_Father: {fileID: 231227924}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1966682246
@@ -14800,14 +14728,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5798096389235391293, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
-      propertyPath: m_SortingLayerID
-      value: -412407735
-      objectReference: {fileID: 0}
     - target: {fileID: 5925204252685204131, guid: b122f96ebc210b34a8730d3a6352d590, type: 3}
       propertyPath: m_Name
       value: Fireball
@@ -14823,7 +14743,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 231227924}
+    m_TransformParent: {fileID: 1966682245}
     m_Modifications:
     - target: {fileID: 1306821323855898955, guid: 1e7777ee54b22cf4f9d0cf4711e790e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14868,10 +14788,6 @@ PrefabInstance:
     - target: {fileID: 2294862653711487293, guid: 1e7777ee54b22cf4f9d0cf4711e790e2, type: 3}
       propertyPath: m_Name
       value: MeleeEnemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 4285710310950628433, guid: 1e7777ee54b22cf4f9d0cf4711e790e2, type: 3}
-      propertyPath: attackCoolDown
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

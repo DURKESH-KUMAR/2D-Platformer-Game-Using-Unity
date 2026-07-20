@@ -70,6 +70,4 @@ public class EnemyPatrol : MonoBehaviour
         enemy.position=new Vector3(enemy.position.x+Time.deltaTime*_direction*speed,
         enemy.position.y,enemy.position.z);
     }
-
-
 }
