@@ -12,6 +12,8 @@ public class MeleeEnemy : MonoBehaviour
     [Header("Player Layer")]
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer=Mathf.Infinity;
+    [Header("Attack Sound")]
+    [SerializeField]private AudioClip attackSound;
     private Animator anim;
     private Health playerHealth;
     private EnemyPatrol enemyPatrol;
@@ -30,6 +32,7 @@ public class MeleeEnemy : MonoBehaviour
             {
                 cooldownTimer=0;
                 anim.SetTrigger("meleeAttack");
+                SoundManager.instance.PlaySound(attackSound);
                 
             } 
         }

@@ -269,6 +269,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  fireballSound: {fileID: 8300000, guid: 097d7f57302a637458c094bc78966a2f, type: 3}
 --- !u!114 &7515286722609376933
 MonoBehaviour:
   m_ObjectHideFlags: 0

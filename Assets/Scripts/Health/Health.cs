@@ -13,6 +13,8 @@ public class Health:MonoBehaviour
     private SpriteRenderer spriteRend;
     [Header("Components")]
     [SerializeField] Behaviour[] components;
+    [Header("Death Sound")]
+    [SerializeField] private AudioClip deathSound;
 
     private void Awake()
     {
@@ -52,6 +54,7 @@ public class Health:MonoBehaviour
                
 
                 dead=true;
+                SoundManager.instance.PlaySound(deathSound);
             }
         }
     }
