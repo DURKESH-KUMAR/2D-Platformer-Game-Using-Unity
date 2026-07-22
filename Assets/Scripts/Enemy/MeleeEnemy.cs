@@ -28,7 +28,7 @@ public class MeleeEnemy : MonoBehaviour
         cooldownTimer+=Time.deltaTime;
         if (PlayerInSight())
         {
-            if (cooldownTimer >= attackCoolDown)
+            if (cooldownTimer >= attackCoolDown && playerHealth.currentHealth > 0)
             {
                 cooldownTimer=0;
                 anim.SetTrigger("meleeAttack");
