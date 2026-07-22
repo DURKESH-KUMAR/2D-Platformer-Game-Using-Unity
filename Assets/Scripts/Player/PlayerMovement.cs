@@ -12,6 +12,8 @@ public class PlayerMovement:MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private float horizontalInput;
+    [Header("SFX")]
+    [SerializeField] private AudioClip jumpSound;
     
     private void Awake()
     {
@@ -51,6 +53,10 @@ public class PlayerMovement:MonoBehaviour
             if (Input.GetKey(KeyCode.Space))
             {
                 Jump();
+                if(Input.GetKeyDown(KeyCode.Space)&& isGrounded())
+                {
+                    SoundManager.instance.PlaySound(jumpSound);
+                }
             }
         }
         else

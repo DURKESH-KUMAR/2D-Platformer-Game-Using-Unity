@@ -10,6 +10,9 @@ public class Firetrap : MonoBehaviour
     private SpriteRenderer spriteRend;
     private bool triggered;
     private bool active;
+    [Header("SFX")]
+    [SerializeField] private AudioClip fireTrapSound;
+
     private void Awake()
     {
         anim=GetComponent<Animator>();
@@ -34,6 +37,7 @@ public class Firetrap : MonoBehaviour
         triggered=true;
         spriteRend.color=Color.red;
         yield return new WaitForSeconds(activationDelay);
+        SoundManager.instance.PlaySound(fireTrapSound);
         spriteRend.color=Color.white;
         active=true;
         anim.SetBool("activated",true);
