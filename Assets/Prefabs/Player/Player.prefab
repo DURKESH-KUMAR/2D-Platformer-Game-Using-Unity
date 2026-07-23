@@ -216,6 +216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
   jumpPower: 20
+  coyoteTime: 0.25
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
