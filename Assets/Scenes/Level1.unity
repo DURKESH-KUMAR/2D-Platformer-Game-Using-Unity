@@ -1609,8 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60bf94c001cb01d48992c78d7d16a3f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Room
-  enemies:
-  - {fileID: 0}
+  enemies: []
 --- !u!1 &261691438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 395979662}
+  - component: {fileID: 395979663}
   m_Layer: 0
   m_Name: Room2
   m_TagString: Untagged
@@ -2464,6 +2464,19 @@ Transform:
   - {fileID: 1022373065}
   m_Father: {fileID: 2087847717}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &395979663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395979661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60bf94c001cb01d48992c78d7d16a3f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Room
+  enemies: []
 --- !u!1 &414759575
 GameObject:
   m_ObjectHideFlags: 0
@@ -14800,6 +14813,14 @@ PrefabInstance:
     - target: {fileID: 468741232775102285, guid: 609b2baac757073448904dea21d32fba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461377845579452382, guid: 609b2baac757073448904dea21d32fba, type: 3}
+      propertyPath: wallJumpX
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 3461377845579452382, guid: 609b2baac757073448904dea21d32fba, type: 3}
+      propertyPath: wallJumpY
+      value: 750
       objectReference: {fileID: 0}
     - target: {fileID: 3461377845579452382, guid: 609b2baac757073448904dea21d32fba, type: 3}
       propertyPath: extraJumps

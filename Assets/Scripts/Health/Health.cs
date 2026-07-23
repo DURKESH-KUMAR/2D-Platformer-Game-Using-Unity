@@ -36,7 +36,6 @@ public class Health:MonoBehaviour
         {
             if (!dead)
             {
-                anim.SetTrigger("die");
                 // if (GetComponent<PlayerMovement>() != null)
                 // {
                 //     GetComponent<PlayerMovement>().enabled=false; 
@@ -53,7 +52,8 @@ public class Health:MonoBehaviour
                 {
                     component.enabled=false;
                 }
-               
+                anim.SetBool("grounded",true);
+                anim.SetTrigger("die");             
 
                 dead=true;
                 SoundManager.instance.PlaySound(deathSound);

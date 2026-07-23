@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using NUnit.Framework.Constraints;
 using Unity.VisualScripting;
 using UnityEngine;
 public class PlayerMovement:MonoBehaviour
@@ -12,6 +13,9 @@ public class PlayerMovement:MonoBehaviour
     [Header("Multiple Jumps")]
     [SerializeField] private int extraJumps;
     private int jumpCounter;
+    [Header("Wall Jumping")]
+    [SerializeField] private float wallJumpX;
+    [SerializeField] private float wallJumpY;
     [Header("Layers")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
@@ -155,7 +159,8 @@ public class PlayerMovement:MonoBehaviour
     }
     private void WallJump()
     {
-        
+        body.AddForce(new Vector2(-Mathf.Sign(transform.localScale.x)*wallJumpX,wallJumpY));
+        wallJumpCoolDown=0;
     }
     private bool isGrounded()
     {
